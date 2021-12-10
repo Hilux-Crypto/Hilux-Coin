@@ -1,5 +1,17 @@
 Masternodes tabs are now automatically added upon installation.
 
+Please Make a installation in a clean VPS or Server Ubuntu 18.04
+
+EASY INSTALL 
+=============
+PLeaseuse a clean new VPS or Server UBuntu 18.04
+
+wget https://github.com/Hilux-Crypto/Hilux-Master-Node/tree/master/scripts/Hilux-setup.sh
+chmod +x Hilux-setup.sh
+./Hilux-setup.sh
+
+Please after that Follow the instructions in the github folder  docs
+
 
 
 APRIL 2019 MASTERNODE PATCH FIX
