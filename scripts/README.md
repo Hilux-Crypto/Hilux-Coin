@@ -1,8 +1,10 @@
-# That is a modification of HLXmasternodesetup
+# INSTALL SCRIPTS
 
 **NOTE:** This installation guide is provided as is with no warranties of any kind.
 
-**NOTE:** This newer version of the script (v1.2.0) does not ask for IP address or masternode genkey anymore. Instead the __script will detect VPS IP Address and generate Masternode Private Key (genkey) automatically__. It will also create a 2GB swap file.  
+**NOTE:** This newer version of the script (v1.5.0) does not ask for IP address or masternode genkey anymore. Instead the __script will detect VPS IP Address and generate Masternode Private Key (genkey) automatically__. It will also create a 2GB swap file.  
+
+Inside extras is the libraries need in case fail any repo
 
 If you follow the steps and use a newly installed Ubuntu 18.00 VPS, it will automatically configure and start your Hilux Masternode. Ubuntu 17.10 and other Linux distros are not currently supported.
 
