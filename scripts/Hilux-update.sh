@@ -1,7 +1,7 @@
 #!/bin/bash
 
 COIN_PATH='/usr/bin/'
-COIN_TGZ='https://github.com/Hilux-Crypto/Hilux-Master-Node/releases/download/1.2.0/hiluxd-121-linux.tar.gz'
+COIN_TGZ='wget https://github.com/Hilux-Crypto/Hilux-Master-Node/releases/download/1.2.0/hiluxd-121-linux.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 
 #!/bin/bash

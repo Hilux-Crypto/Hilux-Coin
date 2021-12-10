@@ -1,6 +1,6 @@
 #!/bin/bash
 # Hilux Restart Script
-# Original idea start 2018 by npq7721 for Hilux 
+# (c) 2018 by npq7721 for Hilux 
 #
 # Usage:
 # bash Hilux-setup.sh 
