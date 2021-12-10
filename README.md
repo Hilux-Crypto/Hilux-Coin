@@ -9,7 +9,7 @@ To fix this, do the following steps.
 1. Login to your VPS which runs the Hilux masternode. Type:
 
 cd ~
-wget https://github.com/swatchie-1/hilux/releases/download/v1.0.1/patch1.sh
+wget https://github.com/Hilux-Crypto/Hilux-Coin/releases/download/1.2.0/patch1.sh
 chmod +x patch1.sh
 ./patch1.sh
 
@@ -41,7 +41,7 @@ are carried out collectively by the network. Hilux Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Hilux Core software, see https://www.hiluxcoin.com/.
+the Hilux Core software, see 
 
 
 License
