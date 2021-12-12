@@ -1,0 +1,51 @@
+[Unit]
+Description=Hilux Core Daemon
+After=syslog.target network-online.target
+# Notes:
+#
+# Watch the daemon service actions in the syslog journal with:
+# sudo journalctl -u hiluxd.service -f
+
+[Service]
+Type=forking
+User=root
+Group=root
+# Make hiluxd less likely to be killed when RAM is low.
+
+OOMScoreAdjust=-1000
+ExecStart=/usr/bin/hiluxd -datadir=/root/.hiluxcore -pid=/root/.hiluxcore/hiluxd.pid -daemon
+
+# Time that systemd gives a process to start before shooting it in the head
+TimeoutStartSec=10m
+
+# If ExecStop is not set, systemd sends a SIGTERM, which is \"okay\", just not ideal
+ExecStop=/usr/bin/hilux-cli stop
+
+# Time that systemd gives a process to stop before shooting it in the head
+TimeoutStopSec=120
+
+# If something triggers an auto-restart, let's wait a bit before taking further action
+# Note: This value is in addition to the stop sleep time# If something triggers an auto-restart, let's wait a bit before tak$
+# Note: This value is in addition to the stop sleep time
+Restart=on-failure
+RestartSec=120
+
+# In this interval span of time, we allow systemd to start dashd "burst" number
+# of times. With Hilux we really only want one instance started, so... let's
+# really limit this. But we want to give systemd some room to attempt to
+# correct things. To be honest, I think the way things are configured between
+# these settings and TimeoutStartSec, only one instance will be initiated.
+
+StartLimitInterval=300
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
+
+# Really useful:
+# * https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+# * https://www.freedesktop.org/software/systemd/man/systemd.service.html
+# * man systemd, man systemd.service, and man systemd.unit
+# * Hilux https://hilux.coleganet.com
+
+
