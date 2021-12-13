@@ -1,3 +1,11 @@
+LAST SOURCES
+
+Explorer: https://explorer.coleganet.com
+
+Pool Minning : https://mecrypto.club
+Pool Block Explorer: https://mecrypto.club/site/block?id=1486
+
+
 Masternodes tabs are now automatically added upon installation.
 
 Please Make a installation in a clean VPS or Server Ubuntu 18.04
