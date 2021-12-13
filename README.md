@@ -1,8 +1,13 @@
-LAST SOURCES
+## Resources & community
+
+Binaries and source code: https://github.com/Hilux-Crypto/Hilux-Master-Node/releases
+
+Report a bug, idea or feature:https://github.com/Hilux-Crypto/Hilux-Master-Node/issues
 
 Explorer: https://explorer.coleganet.com
 
 Pool Minning : https://mecrypto.club
+
 Pool Block Explorer: https://mecrypto.club/site/block?id=1486
 
 
