@@ -24,7 +24,10 @@ Pool Block Explorer: https://mecrypto.club/site/block?id=1486
 
 Exchanges: https://ex4ange.org/index.php?HLX-BTC  
 https://www.coingecko.com/en/coins/hilux
-           
+
+Community:
+BitcoinTalk: https://bitcointalk.org/index.php?topic=4780650.new#new  
+Reddit: https://www.reddit.com/r/HiluxCoin/                
 
 Masternodes tabs are now automatically added upon installation.
 
