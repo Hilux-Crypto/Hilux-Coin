@@ -1,3 +1,14 @@
+        ## HLX (Hilux)
+
+type: POW 
+genesis_time: 2018.07.13 14:38
+block_count: 432,063
+block_interval: 1088
+calc_block_interval: 250 seconds
+masternode: on
+masternode_count: 1500
+masternode_colateral: 1000
+
 ## Resources & community
 
 Binaries and source code: https://github.com/Hilux-Crypto/Hilux-Master-Node/releases
