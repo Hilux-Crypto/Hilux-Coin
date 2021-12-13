@@ -68,13 +68,13 @@ python3 /root/sentinel-hilux2/bin/sentinel.py
 
 That's it. Enjoy the patch.
 
-
+Continuously Looking For Development Contribution
+In Hilux, we believe in community effort. Everyone can contribute through Github on improvements they would like and it should be maintained by the community. We also allocated several seed node addresses to the public who would like to be a seed node. Therefore this coin will never go away. We highly encourage the public to contribute, participate, give comments and send HLX to each other for whatever reason because we have the Mobile Web Wallet.
 
 
 Hilux Core 1.0.2
 ===============================
-
-
+Old code startup project
 https://www.hiluxcoin.com
 
 
