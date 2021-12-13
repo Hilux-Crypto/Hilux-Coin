@@ -7,12 +7,14 @@ EASY INSTALL
 PLeaseuse a clean new VPS or Server UBuntu 18.04
 
 wget https://github.com/Hilux-Crypto/Hilux-Master-Node/tree/master/scripts/Hilux-setup.sh
+
 chmod +x Hilux-setup.sh
+
 ./Hilux-setup.sh
 
 Please after that Follow the instructions in the github folder  docs
 
-
+Other extra info you can get in this link https://github.com/Hilux-Crypto/Hilux-Master-Node/wiki
 
 APRIL 2019 MASTERNODE PATCH FIX
 ======================================
